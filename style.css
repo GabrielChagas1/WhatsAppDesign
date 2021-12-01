@@ -48,3 +48,82 @@ body{
   background: url('images/pattern.png');
   opacity: .06;
 }
+
+.header{
+  position: relative;
+  width: 100%;
+  height: 60px;
+  background: #ededed;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 15px;
+}
+
+.userimg{
+  position: relative;
+  width: 40px;
+  height: 40px;
+  overflow: hidden;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.cover{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.nav_icons{
+  display: flex;
+}
+
+.nav_icons li{
+  display: flex;
+  list-style: none;
+  cursor: pointer;
+  color: #51585c;
+  font-size: 1.5em;
+  margin-left: 22px;
+}
+
+.search_chat{
+  position: relative;
+  width: 100%;
+  height: 50px;
+  background: #f6f6f6;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 15px;
+}
+
+.search_chat div{
+  width: 100%;
+}
+
+.search_chat div input{
+  width: 100%;
+  outline: none;
+  border: none;
+  background: #fff;
+  padding: 6px;
+  height: 38px;
+  border-radius: 30px;
+  padding-left: 40px;
+}
+
+.search_chat div input::placeholder{
+  color: #bbb;
+}
+
+.search_chat div ion-icon{
+  position: absolute;
+  left: 30px;
+  top: 14px;
+  font-size: 1.2em;
+}
