@@ -219,3 +219,20 @@ body{
   align-items: center;
   font-size: .75em;
 }
+
+.imgText{
+  position: relative; 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.imgText h4{
+  font-weight: 500;
+  line-height: 1.2em;
+  margin-left: 1rem;
+}
+
+.imgText h4 span{
+  font-size: .8em;
+  color: #555;
+}
